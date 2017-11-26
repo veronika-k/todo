@@ -110,6 +110,7 @@ object Main {
               }
           }
         case 4 =>
+          println("Input number of item to activate")
           activateItem(StdIn.readInt(), userId).onComplete {
             case Success(x) =>
               x match {
