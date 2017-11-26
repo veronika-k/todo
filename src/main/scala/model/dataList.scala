@@ -1,7 +1,9 @@
+package model
+
 /**
   * Created by inoquea on 25.11.17.
   */
-object dataList {
+object DataList {
 
   val userList = List((Some(1), "data", "data"), (Some(2), "root", "root"))
   val itemsList = for (i <- 1 to 10) yield {
